@@ -1,12 +1,12 @@
 ---
-title: 我的个人诗词网站
+title: A static site based on dumi
 hero:
-  title: 诗词
-  description: 包含各种绝句，律诗等。
+  title: Site
+  description: A static site based on dumi
   actions:
-    - text: 开始
+    - text: Hello
       link: /
-    - text: 查看详情
+    - text: World
       link: /
 features:
   - title: Hello
@@ -19,3 +19,5 @@ features:
     emoji: 🚀
     description: Put ! description here
 ---
+
+my-poem
