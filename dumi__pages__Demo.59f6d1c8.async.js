@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_poem=self.webpackChunkmy_poem||[]).push([[448],{78814:function(v,n,e){e.r(n),e.d(n,{default:function(){return r}});var a=e(86805),o=e(93236),t=function(){var u=(0,a.UO)(),d=u.id,s=(0,a.WF)(),c=s.demos,f=c[d]||{},m=f.component;return m&&(0,o.createElement)(m)},r=t}}]);
