@@ -2,6 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
   themeConfig: {
 
   },
