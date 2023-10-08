@@ -7,7 +7,7 @@
     "dev": "dumi dev",
     "build": "dumi build",
     "prepare": "husky install && dumi setup",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build & gh-pages -d dist"
   },
   "authors": [
     "eveningwater"
