@@ -2,20 +2,10 @@
 title: 我的个人诗词网站
 hero:
   title: 诗词
-  description: 包含各种绝句，律诗等。
+  description: 这是我的个人诗词网站，收录曾经创作过的诗词，包含各种旧体诗，词以及歌曲现代诗等。
   actions:
     - text: 开始
-      link: /
-    - text: 查看详情
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+      link: /old-style-poem/1/1
 ---
+
+[个人小说网站](https://www.eveningwater.com/novel-website/index.html)

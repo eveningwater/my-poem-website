@@ -1,23 +1,11 @@
 ---
-title: A static site based on dumi
+title: My personal poem website
 hero:
-  title: Site
-  description: A static site based on dumi
+  title: poem
+  description: This is my personal poem website, which collects poems I have written, including various old-style poems, lyrics, and modern poems etc.
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+    - text: start
+      link: /old-style-poem/1/1
 ---
 
-my-poem
+[Personal novel website](https://www.eveningwater.com/novel-website/index.html)
