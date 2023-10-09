@@ -54,7 +54,7 @@ export default defineConfig({
     rtl: true,
     footer: `<span class="pipe-el">Copyright ©2023</span>
     ${footerList.map(item => `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="pipe-el">${item.text}</a>`).join('')}`,
-    editLink: 'https://github.com/eveningwater/my-poem-website/{filename}',
+    editLink: `https://github.com/eveningwater/my-poem-website/tree/main/${process.env.NODE_ENV === 'production' ? 'docs/' : '/'}{filename}`,
     lastUpdated: true
   },
   locales: [
