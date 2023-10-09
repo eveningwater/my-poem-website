@@ -49,24 +49,28 @@ export default defineConfig({
   themeConfig: {
     name: 'poem',
     socialLinks: {
-      github: 'https://github.com/eveningwater',
-      zhihu: 'https://www.zhihu.com/people/eveningwater'
+      github: 'https://github.com/eveningwater'
     },
     rtl: true,
-    styles: [`.pipe-el+.pipe-el:before {
-      content: "";
-      font-size: 0;
-      padding: 12px 3px 1px;
-      margin-left: 6px;
-      border-left: 1px solid #f2f3f4;
-  }`],
     footer: `<span class="pipe-el">Copyright ©2023</span>
     ${footerList.map(item => `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="pipe-el">${item.text}</a>`).join('')}`,
-    editLink: true,
+    editLink: 'https://github.com/eveningwater/my-poem-website/{filename}',
     lastUpdated: true
   },
   locales: [
     { id: 'zh-CN', name: '中文' },
     { id: 'en-US', name: 'English' },
   ],
+  styles: [`
+    .pipe-el+.pipe-el:before {
+      content: "";
+      font-size: 0;
+      padding: 12px 3px 1px;
+      margin-left: 6px;
+      border-left: 1px solid #618fbd;
+    }
+    body {
+      margin: 0;
+    }
+  `],
 });
