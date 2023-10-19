@@ -5,7 +5,7 @@ hero:
   description: This is my personal poem website, which collects poems I have written, including various old-style poems, lyrics, and modern poems etc.
   actions:
     - text: start
-      link: /en-US/old-style-poem/1/1
+      link: /en-US/old-style-poem
 ---
 
 [Personal novel website](https://www.eveningwater.com/novel-website/index.html)
