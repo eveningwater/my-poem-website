@@ -365,3 +365,91 @@ If life could be without a moment of encounter,
 You won't know what this feeling is.
 
 > Creation time: 2017/01/11
+
+## Song dedicated to mother
+
+It's raining,
+
+Looking out the window at the woods,
+
+and the pattering raindrops,
+
+Reminds me of my mother.
+
+Thinking of her ordinary but sunny face,
+
+Thinking of her rough hands worn by wind and rain,
+
+Thinking of her hard work in blending the drops of blood,
+
+Thinking of her soul-trembling heart.
+
+What fragrance could compare to the color she loved?
+
+What kind of fragrance can compare with the hard work of her love?
+
+What kind of light can compare with her selfless love?
+
+What kind of storm can compare with her hardship?
+
+Nothing compares to her beauty,
+
+There is nothing like her hands,
+
+Nothing compares to her selflessness,
+
+Nothing can compare to her heart.
+
+It's raining,
+
+Looking at the woods outside the window,
+
+and the pattering raindrops,
+
+Reminds me of my mother.
+
+Thinking of the way she looked covered in dirt but didn’t change her smile,
+
+Thinking of her love as vast as the sea,
+
+Thinking of her loftiness that compares to all the five mountains,
+
+Thinking of her heart that shook the world.
+
+I don't know why she wants to scatter the fragrance,
+
+I don't know why she releases the fragrance,
+
+I don't know why she gave up the light,
+
+I don't even know why she exposed her heart.
+
+All I know is that her love goes deep into the sea,
+
+I only know that her love reaches into the sky,
+
+I know her love shakes the earth,
+
+I only know that her heart has built a boundless forest.
+
+Ah, the most selfless, the greatest, the noblest, the most beautiful;
+
+Mother who is most like a burning candle.
+
+Did you know?
+
+This is the eternal evaluation of you from your Son;
+
+Did you know?
+
+This is a sincere compliment from your son;
+
+Did you know?
+
+This is a song of praise from your son to your greatness;
+
+Did you know?
+
+This comes from the purest heart of my son.
+
+> Creation date: October 2011

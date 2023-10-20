@@ -247,3 +247,29 @@ The green flowers and plants will definitely be angry with the dead leaves on th
 Therefore, a good beginning and a good ending are both determined by yourself.
 
 > Creation date: 2013/03/03
+
+## Teasing Order-Falling Leaves
+
+Danye, Danye,
+
+The swirling spring sun is bleak.
+
+Desolate, desolate,
+
+The setting sun is also the bright moon.
+
+### Self-translated
+
+Red fallen leaves, red fallen leaves,
+
+They are flying down one after another, suggesting the desolation of spring.
+
+The desolation of spring, the desolation of spring,
+
+It makes me feel like the falling sun has turned into a bright moon.
+
+### Self-note
+
+The last sentence uses two images, comparing the setting sun to the bright moon, to express my homesickness. Because it was written at dusk, in spring, you can actually see fallen leaves. I wrote it with emotion, and also lamented the rapid passage of time. Affection.
+
+> Creation date: 2013/03/03

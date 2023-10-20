@@ -207,3 +207,21 @@ I have always longed for a paradise like the Ninth Heaven, and I never knew how 
 As soon as you enter the world, you begin to wake up. Life is like countless mountains lying in front of you.
 
 > Creation date: xxx/xx/xx
+
+## Feelings
+
+A life of hard work is never free,
+
+It is difficult to live alone with a sick head and a white head.
+
+I asked creation how much do you care about it?
+
+This home is as cold as ice.
+
+### Self-translated
+
+He worked hard all his life and never let himself have time. When he got old and got sick, it was difficult to live alone.
+
+I want to ask God, how many people in this family are going to take care of him? This home is as chilling as an emotionless ice cube.
+
+> Creation date: June 13, 2018
