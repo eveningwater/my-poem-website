@@ -453,3 +453,23 @@ Did you know?
 This comes from the purest heart of my son.
 
 > Creation date: October 2011
+
+## work
+
+Gently, touch my treasure,
+
+Fear that the treasure will disappear in the blink of an eye.
+
+I hold you like an innocent child,
+
+If I lose it, I will lose the bright green grass.
+
+Like a delicate girl,
+
+I love this imaginary treasure.
+
+I chase all my treasures,
+
+I wish to become a bird flying in the sky.
+
+> Creation date: April 15, 2012

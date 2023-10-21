@@ -225,3 +225,25 @@ He worked hard all his life and never let himself have time. When he got old and
 I want to ask God, how many people in this family are going to take care of him? This home is as chilling as an emotionless ice cube.
 
 > Creation date: June 13, 2018
+
+## Watching the sun from a dangerous building
+
+I've had nothing to do lately, so it's time for me to be soft and red.
+
+Sitting in a dangerous building, I feel sorry for myself and my heart is broken.
+
+It flew into several houses of white, and flashed away the blackness of the earth.
+
+Why worry about this moment, there is no need to pity the pity.
+
+### Self-translated
+
+I haven't had much to do recently, and the warm sunshine happened to appear at this time.
+
+Sitting casually in a high-rise building, I complained alone that the thought of going home was too torturous.
+
+The sun suddenly shone into each building, and the shining light seemed to drive away the darkness of the entire earth.
+
+Why worry about this time? A pity is not necessarily a pity.
+
+> Creation date: January 5, 2017

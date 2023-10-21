@@ -273,3 +273,25 @@ It makes me feel like the falling sun has turned into a bright moon.
 The last sentence uses two images, comparing the setting sun to the bright moon, to express my homesickness. Because it was written at dusk, in spring, you can actually see fallen leaves. I wrote it with emotion, and also lamented the rapid passage of time. Affection.
 
 > Creation date: 2013/03/03
+
+## Dielianhua
+
+Now I am listening to the broken leaves while leaning on the railing. I suspect it is Jin Fei. Who is doing this?
+
+I am so proud of the spring breeze that I can see the old trees are still haggard.
+
+It's unbearable to go back and think about it endlessly. I feel so drunk when I look at the scenery.
+
+Where do you think you will go? Asking alone among the white clouds.
+
+### Self-translated
+
+Today I was leaning on the railing and saw those broken leaves flying everywhere, like gold. Who made these broken leaves fly?
+
+Caused by the triumphant spring breeze, it seemed to see that the old and decaying trees were more haggard.
+
+It's hard to bear the feeling of homesickness, because it's endless, so I have to look at this scenery, and end up feeling confused every time I look at it.
+
+Thinking about where to go in the future? Asked loudly to the sky alone.
+
+> Creation date: 2013/03/02
