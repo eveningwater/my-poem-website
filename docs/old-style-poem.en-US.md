@@ -247,3 +247,25 @@ The sun suddenly shone into each building, and the shining light seemed to drive
 Why worry about this time? A pity is not necessarily a pity.
 
 > Creation date: January 5, 2017
+
+## Feeling aware of the heavy rain in the capital of Shu
+
+A long roar shook the sky,
+
+Torrential rain rolled down Shushan from all directions.
+
+It is still difficult to drive a carriage on the streets,
+
+Blessings and misfortunes are always at hand.
+
+### Self-translated
+
+A roaring sound shook the whole sky,
+
+Crazy heavy rain fell on Chengdu from all directions.
+
+Countless vehicles are jammed back and forth on the road,
+
+Fortunes and misfortunes always appear before one's eyes.
+
+> Creation date: July 2, 2018

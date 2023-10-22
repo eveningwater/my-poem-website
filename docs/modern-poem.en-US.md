@@ -473,3 +473,35 @@ I chase all my treasures,
 I wish to become a bird flying in the sky.
 
 > Creation date: April 15, 2012
+
+## Bear
+
+I am just a lowly life,
+
+I was born to be your servant.
+
+I am as humble as dust,
+
+Endure the wind and rain that ordinary people cannot bear,
+
+I can only follow the destiny arranged by God,
+
+I won’t be unhappy if my body is taken away from me.
+
+I feel - why does this hurt?
+
+I am just a lowly life,
+
+I have no right to live in this world.
+
+I am like a small drop of water,
+
+After all, they cannot gather into the sea,
+
+I still have many precious pearls on me,
+
+I'm waiting for you to pick it up.
+
+I think - there is nothing unfair about this!
+
+> Creation date: June 29, 2012

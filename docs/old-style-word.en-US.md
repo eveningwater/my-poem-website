@@ -295,3 +295,25 @@ It's hard to bear the feeling of homesickness, because it's endless, so I have t
 Thinking about where to go in the future? Asked loudly to the sky alone.
 
 > Creation date: 2013/03/02
+
+## Bu Suanzi’s new rhymes and new tunes do not follow the word score
+
+The dead flowers only bow their heads, and the decaying leaves are sad in the wind and rain.
+
+Never be afraid of strong winds and storms, dare to step on the waves.
+
+All the beauties laugh at me for being crazy, and I laugh at all the beauties for being blind.
+
+Dapeng still wants to fly high, how can he be inferior to Dapeng?
+
+### Self-translated
+
+Withered flowers will only bow their heads, and decaying leaves will be sad about the wind and rain.
+
+But this flower is never afraid of strong winds and rains. It can survive strong winds and waves.
+
+The flowers laughed at its arrogance, but it smiled at the flowers' narrow vision.
+
+Even if Dapeng wants to fly high, how can it be smaller than Dapeng?
+
+> Creation date: 2013/03/20
