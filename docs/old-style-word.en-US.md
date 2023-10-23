@@ -317,3 +317,33 @@ The flowers laughed at its arrogance, but it smiled at the flowers' narrow visio
 Even if Dapeng wants to fly high, how can it be smaller than Dapeng?
 
 > Creation date: 2013/03/20
+
+## Huanxi Sha
+
+Dark hair, charming eyes and red lips,
+
+The graceful posture and weak shadow are more moving.
+
+Love at first sight is not surprising.
+
+I am willing to fight the wind and snow for the fragrance,
+
+Why fear that there is no king in the flowers?
+
+The shameful words are hidden in the heart.
+
+### Self-translated
+
+She has black hair, a pair of charming eyes and a bright red lip.
+
+The graceful and soft figure is even more moving.
+
+It wouldn't be surprising to fall in love with her just by looking at her.
+
+I really hope to withstand the wind and snow of life for her,
+
+But she was a little afraid that she didn't have herself in her heart.
+
+Helpless and shy, he hid his confession in his heart.
+
+> Creation date: 2013/03/20

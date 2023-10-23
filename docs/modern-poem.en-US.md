@@ -505,3 +505,27 @@ I'm waiting for you to pick it up.
 I think - there is nothing unfair about this!
 
 > Creation date: June 29, 2012
+
+## To youth
+
+We are all the flowers of our motherland,
+
+So our youth cannot avoid the throbbing of the heart,
+
+Once youth is gone,
+
+Just like running water passing through the world.
+
+We once loved each other,
+
+But we are like withered flowers that bear no fruit.
+
+Suppressing the desires in my heart,
+
+Chasing the bright spring light,
+
+Chasing the light of the sun.
+
+Why do youth always make mistakes?
+
+> Creation date: June 5, 2013

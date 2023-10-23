@@ -269,3 +269,25 @@ Countless vehicles are jammed back and forth on the road,
 Fortunes and misfortunes always appear before one's eyes.
 
 > Creation date: July 2, 2018
+
+## I feel
+
+How difficult is it to endure the laughter and look up the mountain?
+
+Although it is necessary to take risks beforehand.
+
+How can a man not have great aspirations?
+
+Climb to the top and see the world.
+
+### Self-translated
+
+Holding back a smile, I looked at the mountain peaks in front of me. What difficulties had I encountered in the past?
+
+Although the road is winding and winding, it is still necessary to keep moving forward.
+
+How can a man not have lofty ambitions?
+
+When you climb to the top of the mountain and look down at the world, the scenery must be beautiful.
+
+> Creation date: October 07, 2017
