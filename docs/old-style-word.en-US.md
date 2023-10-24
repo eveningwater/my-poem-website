@@ -347,3 +347,25 @@ But she was a little afraid that she didn't have herself in her heart.
 Helpless and shy, he hid his confession in his heart.
 
 > Creation date: 2013/03/20
+
+## Yijianmei Lianfang
+
+If you never fall in love with fragrance in your life, if you only fall in love with fragrance, you will lose fragrance.
+
+I am in fear and yearning for lovesickness all day long, looking back with bitter hatred, coiled like a cobweb.
+
+God didn't dare to be the old man of the moon, so he cut off the red thread and dismantled the reunion.
+
+I never know whether fate is over or not. Remembering the first time we met is like Zhuang's dream.
+
+### Self-translated
+
+In this life, I haven’t learned how to love someone. When I learned to love someone, I lost the person I loved.
+
+I have been fearful all day long and am lovesick. Looking back on past regrets and troubles, they are like spider webs hovering in my heart.
+
+God did not dare to be like Yue Lao and cut the red thread between me and her, breaking up our meeting.
+
+I never want to remember the beginning and end of fate. I only remember the first meeting, which was as short and beautiful as Zhuang Zhou Mengdie.
+
+> Creation date: 2013/03/20

@@ -529,3 +529,39 @@ Chasing the light of the sun.
 Why do youth always make mistakes?
 
 > Creation date: June 5, 2013
+
+## leaf
+
+A gust of autumn wind passed by,
+
+Coolly, sweep up an ocean.
+
+Flying wildly, as if praying,
+
+Slowly and gently, he fell to the cold ground.
+
+Wind and rain cannot wash away its strength,
+
+The heat of the red sun gave him a withered yellow color.
+
+I can no longer withstand the desolation of the third autumn,
+
+It turned into smoke in an instant.
+
+They are not green grass,
+
+Fearless of being washed by wind and rain, fearless of burning by fire;
+
+They are not Qingshan,
+
+Let it be covered with frost and snow, let it be thunder and lightning.
+
+They have different minds,
+
+It also has a different life.
+
+So - unconsciously formed -
+
+Yellowing of leaves.
+
+> Creation date: May 24, 2013

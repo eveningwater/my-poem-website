@@ -291,3 +291,25 @@ How can a man not have lofty ambitions?
 When you climb to the top of the mountain and look down at the world, the scenery must be beautiful.
 
 > Creation date: October 07, 2017
+
+## Happy New Year
+
+There is no joy in the new year, so you will naturally be free.
+
+The reason is that people gather together to laugh and gamble.
+
+It’s hard to separate the thousands of pages,
+
+Earn money to your heart's content for one year.
+
+### Self-translated
+
+There is nothing to do in the new year, so I will naturally be free.
+
+So everyone got together and laughed and gambled and won money.
+
+The money is distributed one after another as if it is difficult to divide it all.
+
+As long as you can cheat and be happy once, you have spent a year.
+
+> Creation date: February 1, 2017
