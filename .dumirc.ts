@@ -57,10 +57,6 @@ export default defineConfig({
     editLink: `https://github.com/eveningwater/my-poem-website/tree/main/{filename}`,
     lastUpdated: true
   },
-  locales: [
-    { id: 'zh-CN', name: '中文' },
-    { id: 'en-US', name: 'English' },
-  ],
   styles: [`
     .pipe-el+.pipe-el:before {
       content: "";
