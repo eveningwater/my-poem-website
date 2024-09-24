@@ -301,7 +301,7 @@ getCss 为 window.getComputedStyle 方包耳!,\_create 为 document.createElemen
 
 ### 自译
 
-![参考这里](https://juejin.cn/post/7197400930786082877)。
+[参考这里](https://juejin.cn/post/7197400930786082877)。
 
 > 创作日期: 2023 年 02 月 07 日
 
