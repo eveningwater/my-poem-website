@@ -23,6 +23,12 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: config user.email
+        run:   git config --global user.email "854806732@qq.com"
+      
+      - name: config user.email
+        run:  git config --global user.name "eveningwater"
+
       - name: Deploy to GitHub Pages
         run: npm run release
         env:
