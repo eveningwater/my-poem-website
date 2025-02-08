@@ -68,5 +68,11 @@ export default defineConfig({
     body {
       margin: 0;
     }
+    .dumi-default-navbar>li:not(:last-child) {
+      margin-inline-end: 20px;
+    }
+    .dumi-default-navbar>li>.dumi-default-navbar-dropdown>li>a, .dumi-default-navbar>li>a {
+      white-space: nowrap;
+    }
   `],
 });
