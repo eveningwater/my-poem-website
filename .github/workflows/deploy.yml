@@ -26,4 +26,4 @@ jobs:
       - name: Deploy to GitHub Pages
         run: npm run release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_POEM_WEBSITE_GH_TOKEN }}
