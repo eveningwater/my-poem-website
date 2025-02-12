@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -20,9 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Set up Git config
+        run: |
+          git config --global user.email "854806732@qq.com"
+          git config --global user.name "eveningwater"
+
       - name: Build the project
         run: npm run build
-      
+
       - name: Deploy to GitHub Pages
         run: npm run release
         env:
