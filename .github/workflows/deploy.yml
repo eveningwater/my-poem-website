@@ -24,6 +24,8 @@ jobs:
         run: |
           git config --global user.email "854806732@qq.com"
           git config --global user.name "eveningwater"
+      - name: Configure Git to use token
+        run: git remote set-url origin https://eveningwater:${{ secrets.GITHUB_TOKEN }}@github.com/eveningwater/my-poem-website.git
 
       - name: Build the project
         run: npm run build
