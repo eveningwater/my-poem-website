@@ -27,10 +27,7 @@ jobs:
       - name: Configure Git to use token
         run: git remote set-url origin https://eveningwater:${{ secrets.MY_POEM_WEBSITE_GH_TOKEN }}@github.com/eveningwater/my-poem-website.git
 
-      - name: Build the project
-        run: npm run build
-
       - name: Deploy to GitHub Pages
-        run: npm run release
+        run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.MY_POEM_WEBSITE_GH_TOKEN }}
