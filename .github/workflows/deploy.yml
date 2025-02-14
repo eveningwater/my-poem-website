@@ -17,11 +17,12 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install pnpm
+        run: npm install pnpm -g
+        
       - name: Install dependencies
-        run: ｜ 
-            npm install pnpm -g
-            pnpm install
-
+        run: pnpm install
+        
       - name: Set up Git config
         run: |
           git config --global user.email "854806732@qq.com"
