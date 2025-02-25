@@ -55,7 +55,49 @@ export default defineConfig({
     footer: `<span class="pipe-el">Copyright ©2023</span>
     ${footerList.map(item => `<a href="${item.url}" target="_blank" rel="noopener noreferrer" class="pipe-el">${item.text}</a>`).join('')}`,
     editLink: `https://github.com/eveningwater/my-poem-website/tree/main/{filename}`,
-    lastUpdated: true
+    lastUpdated: true,
+    nav: {
+      'zh-CN': [{
+        title: '小说',
+        children: [
+          { title: '长篇小说', link: 'https://www.eveningwater.com/novel-website/index.html' },
+          { title: '小说设计', link: '/novel-design' },
+          { title: '短篇小说', link: '/short-novel' },
+        ]
+      },
+      {
+        title: '诗',
+        children: [
+          { title: '旧体诗', link: '/old-style-poem' },
+          { title: '现代诗', link: '/modern-poem' },
+        ]
+      },
+      { title: '旧体词', link: '/old-style-word' },
+      { title: '文言文', link: '/classical-chinese' },
+      { title: '句', link: '/sentence' },
+      { title: '元曲', link: '/yuan-opera' },
+      ],
+      'en-US': [{
+        title: 'novel',
+        children: [
+          { title: 'long novel', link: 'https://www.eveningwater.com/novel-website/index.html' },
+          { title: 'novel design', link: '/novel-design' },
+          { title: 'short novel', link: '/short-novel' },
+        ]
+      },
+      {
+        title: 'poem',
+        children: [
+          { title: 'old style poem', link: '/old-style-poem' },
+          { title: 'modern poem', link: '/modern-poem' },
+        ]
+      },
+      { title: 'old style word', link: '/old-style-word' },
+      { title: 'classical-chinese', link: '/classical-chinese' },
+      { title: 'sentence', link: '/sentence' },
+      { title: 'yuan-opera', link: '/yuan-opera' },
+      ],
+    },
   },
   styles: [`
     .pipe-el+.pipe-el:before {
@@ -67,12 +109,6 @@ export default defineConfig({
     }
     body {
       margin: 0;
-    }
-    .dumi-default-navbar>li:not(:last-child) {
-      margin-inline-end: 20px;
-    }
-    .dumi-default-navbar>li>.dumi-default-navbar-dropdown>li>a, .dumi-default-navbar>li>a {
-      white-space: nowrap;
     }
   `],
 });
