@@ -85,6 +85,7 @@ export default defineConfig({
         { title: '文言文', link: '/classical-chinese' },
         { title: '句', link: '/sentence' },
         { title: '元曲', link: '/yuan-opera' },
+        { title: '歌曲', link: '/song' },
         { title: '格律检测', link: 'https://sou-yun.cn/analyzepoem.aspx' },
       ],
       'en-US': [
