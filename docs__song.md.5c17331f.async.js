@@ -1,0 +1,15 @@
+"use strict";(self.webpackChunkmy_poem=self.webpackChunkmy_poem||[]).push([[572],{37601:function(o,n,_){_.r(n);var s=_(55137),i=_(79208),r=_(49137),a=_(96940),p=_(69524),c=_(25323),h=_(48116),E=_(22158),m=_(71246),t=_(31455),u=_(75271),d=_(68670),e=_(52676);function l(){return(0,e.jsx)(m.dY,{children:(0,e.jsx)(u.Suspense,{fallback:(0,e.jsx)(t.Z,{}),children:(0,e.jsx)(e.Fragment,{children:(0,e.jsxs)("div",{className:"markdown",children:[(0,e.jsxs)("h2",{id:"\u4EBA\u4E0D\u5982\u72D7",children:[(0,e.jsx)("a",{"aria-hidden":"true",tabIndex:"-1",href:"#\u4EBA\u4E0D\u5982\u72D7",children:(0,e.jsx)("span",{className:"icon icon-link"})}),"\u4EBA\u4E0D\u5982\u72D7"]}),(0,e.jsx)("p",{children:d.texts[0].value}),(0,e.jsx)("p",{children:d.texts[1].value}),(0,e.jsx)("p",{children:d.texts[2].value}),(0,e.jsx)("blockquote",{children:(0,e.jsx)("p",{children:d.texts[3].value})})]})})})})}n.default=l},68670:function(o,n,_){_.r(n),_.d(n,{texts:function(){return s}});const s=[{value:`\u90A3\u4E2A\u6625\u5929\uFF0C\u6211\u4EEC\u76F8\u9047\u5728\u7F51\u6D77\uFF0C
+\u8BDD\u5323\u6253\u5F00\uFF0C\u4ECE\u6B64\u4E16\u754C\u53EA\u6709\u5F7C\u6B64\u5B58\u5728\u3002
+\u4F60\u53EB\u6211\u751C\u751C\uFF0C\u6211\u53EB\u4F60\u751C\u751C\uFF0C
+\u672A\u66FE\u76F8\u89C1\uFF0C\u5374\u65E9\u5DF2\u7ECF\u79C1\u8BA2\u4E86\u6C38\u8FDC\u3002`,paraId:0,tocIndex:0},{value:`\u53EF\u60DC\u5230\u4E86\u540E\u6765\uFF0C\u4E3A\u4E00\u53EA\u72D7\u72D7\u5404\u81EA\u6267\u62D7\uFF0C
+\u4F60\u8BF4\u5B83\u662F\u4F60\u7684\u9AA8\u8840\uFF0C\u662F\u4F60\u7684\u6240\u6709\u3002
+\u6211\u770B\u5230\u7684\uFF0C\u662F\u73B0\u5B9E\u538B\u5F2F\u4E86\u4F60\u7684\u7709\u5934\uFF0C
+\u8FD9\u4EFD\u60C5\u610F\uFF0C\u7ADF\u5728\u5B83\u9762\u524D\u5931\u5B88\u3002`,paraId:1,tocIndex:0},{value:`\u539F\u6765\u771F\u7684\u5B58\u5728\uFF0C\u4EBA\u4E0D\u5982\u72D7\uFF0C
+\u800C\u4E14\u554A\uFF0C\u5C31\u5728\u6211\u773C\u524D\u6E17\u900F\u3002
+\u539F\u6765\u518D\u751C\u7684\u76F8\u7231\uFF0C\u4E5F\u8106\u5F31\u5982\u821F\uFF0C
+\u4E00\u70B9\u70B9\u98CE\u6D6A\uFF0C\u5C31\u95F9\u6210\u4E86\u5206\u624B\u3002
+\u5C31\u7B97\u4F60\u8D1F\u503A\u5982\u5C71\uFF0C\u4E5F\u4E0D\u613F\u653E\u624B\uFF0C
+\u5C31\u7B97\u6211\u503E\u5C3D\u6240\u6709\uFF0C\u4E5F\u6362\u4E0D\u4E86\u4F60\u7684\u56DE\u7738\u3002
+\u6211\u6C38\u8FDC\u6263\u4E0D\u5F00\uFF0C\u4F60\u5FC3\u7075\u7684\u90A3\u6247\u7A97\u53E3\uFF0C
+\u4E5F\u6C38\u8FDC\u89E6\u78B0\u4E0D\u5230\uFF0C\u4F60\u85CF\u5728\u5FC3\u5E95\u7684\u6E29\u67D4\u3002
+\u6C38\u8FDC\u89E6\u78B0\u4E0D\u5230\u4F60\u85CF\u5728\u5FC3\u5E95\u7684\u6E29\u67D4\u3002`,paraId:2,tocIndex:0},{value:"\u521B\u4F5C\u65E5\u671F\uFF1A2025\u5E7410\u670831\u65E5\u4F5C",paraId:3,tocIndex:0}]}}]);
