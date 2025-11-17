@@ -86,6 +86,7 @@ export default defineConfig({
         { title: '句', link: '/sentence' },
         { title: '元曲', link: '/yuan-opera' },
         { title: '歌曲', link: '/song' },
+        { title: '对联', link: '/couplet' },
         { title: '格律检测', link: 'https://sou-yun.cn/analyzepoem.aspx' },
       ],
       'en-US': [
@@ -111,6 +112,8 @@ export default defineConfig({
         { title: 'classical-chinese', link: '/classical-chinese' },
         { title: 'sentence', link: '/sentence' },
         { title: 'yuan-opera', link: '/yuan-opera' },
+        { title: 'song', link: '/song' },
+        { title: 'couplet', link: '/couplet' },
         { title: 'meter detection', link: 'https://sou-yun.cn/analyzepoem.aspx' },
       ],
     },
