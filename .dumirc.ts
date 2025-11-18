@@ -81,12 +81,25 @@ export default defineConfig({
             { title: '现代诗', link: '/modern-poem' },
           ],
         },
-        { title: '旧体词', link: '/old-style-word' },
-        { title: '文言文', link: '/classical-chinese' },
-        { title: '句', link: '/sentence' },
-        { title: '元曲', link: '/yuan-opera' },
-        { title: '歌曲', link: '/song' },
-        { title: '对联', link: '/couplet' },
+        {
+          title: '文',
+          children: [{ title: '文言文', link: '/classical-chinese' }],
+        },
+        {
+          title: '词曲',
+          children: [
+            { title: '旧体词', link: '/old-style-word' },
+            { title: '元曲', link: '/yuan-opera' },
+            { title: '歌曲', link: '/song' },
+          ],
+        },
+        {
+          title: '联句',
+          children: [
+            { title: '句', link: '/sentence' },
+            { title: '对联', link: '/couplet' },
+          ],
+        },
         { title: '格律检测', link: 'https://sou-yun.cn/analyzepoem.aspx' },
       ],
       'en-US': [
@@ -108,13 +121,29 @@ export default defineConfig({
             { title: 'modern poem', link: '/modern-poem' },
           ],
         },
-        { title: 'old style word', link: '/old-style-word' },
-        { title: 'classical-chinese', link: '/classical-chinese' },
-        { title: 'sentence', link: '/sentence' },
-        { title: 'yuan-opera', link: '/yuan-opera' },
-        { title: 'song', link: '/song' },
-        { title: 'couplet', link: '/couplet' },
-        { title: 'meter detection', link: 'https://sou-yun.cn/analyzepoem.aspx' },
+        {
+          title: 'article',
+          children: [{ title: 'classical chinese', link: '/classical-chinese' }],
+        },
+        {
+          title: 'word',
+          children: [
+            { title: 'old style word', link: '/old-style-word' },
+            { title: 'yuan opera', link: '/yuan-opera' },
+            { title: 'song', link: '/song' },
+          ],
+        },
+        {
+          title: 'sentence and couplet',
+          children: [
+            { title: 'sentence', link: '/sentence' },
+            { title: 'couplet', link: '/couplet' },
+          ],
+        },
+        {
+          title: 'meter detection',
+          link: 'https://sou-yun.cn/analyzepoem.aspx',
+        },
       ],
     },
   },
