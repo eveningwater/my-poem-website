@@ -6,7 +6,11 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"]
-    }
+    },
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"]
   },
-  "include": [".dumirc.ts"]
+  "include": [".dumirc.ts", "src/**/*"]
 }

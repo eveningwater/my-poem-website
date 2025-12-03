@@ -4,8 +4,9 @@
   "description": "A static site based on dumi",
   "scripts": {
     "start": "npm run dev",
-    "dev": "dumi dev",
-    "build": "dumi build",
+    "dev": "npm run generate:stats && dumi dev",
+    "build": "npm run generate:stats && dumi build",
+    "generate:stats": "node scripts/generate-statistics.js",
     "prepare": "husky install && dumi setup",
     "deploy": "npm run build && gh-pages -d dist",
     "release": "gh-pages -d dist"
@@ -27,6 +28,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "dumi": "^2.2.9",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
