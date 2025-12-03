@@ -3,6 +3,8 @@
 nav: 元曲
 ---
 
+<code src="../src/components/Statistics/index.tsx"></code>
+
 ## 双调-天净沙-秋
 
 平村赤光红霞，

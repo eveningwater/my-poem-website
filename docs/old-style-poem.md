@@ -3,6 +3,8 @@
 nav: 旧体诗
 ---
 
+<code src="../src/components/Statistics/index.tsx"></code>
+
 # 五言绝句格律
 
 一二对，三四对，二三粘。

@@ -3,6 +3,8 @@
 nav: 歌曲
 ---
 
+<code src="../src/components/Statistics/index.tsx"></code>
+
 ## 人不如狗
 
 那个春天，我们相遇在网海，

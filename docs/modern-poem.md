@@ -3,6 +3,8 @@
 nav: 现代诗
 ---
 
+<code src="../src/components/Statistics/index.tsx"></code>
+
 ## 我的仇人
 
 > 题记：羡慕别人的生活，不如想法让自己活的快乐。

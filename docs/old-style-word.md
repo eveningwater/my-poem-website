@@ -3,6 +3,8 @@
 nav: 旧体词
 ---
 
+<code src="../src/components/Statistics/index.tsx"></code>
+
 ## 蝶恋花—朝露
 
 朝露只须赤日暖，不为赫炎，惹之唯有绊。

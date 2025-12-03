@@ -3,6 +3,8 @@
 nav: 一些短句
 ---
 
+<code src="../src/components/Statistics/index.tsx"></code>
+
 ## 句一
 
 专一技者未必长行于江湖，攻多行者未必短生于江湖。智者不厌于多行而自得，愚者空安于一技而自喜。——2018-04-04
