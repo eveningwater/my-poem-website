@@ -46,6 +46,7 @@ const footerList = [
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
   publicPath: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
+  outputPath: 'my-poem-website',
   themeConfig: {
     name: 'poem',
     socialLinks: {

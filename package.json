@@ -6,11 +6,13 @@
     "start": "npm run dev",
     "stats": "npm run generate:stats",
     "dev": "npm run generate:stats && dumi dev",
-    "build": "npm run generate:stats && dumi build",
+    "build": "npm run generate:stats && dumi build && npm run package",
+    "build:only": "npm run generate:stats && dumi build",
+    "package": "node scripts/package-build.js",
     "generate:stats": "node scripts/generate-statistics.js",
     "prepare": "husky install && dumi setup",
-    "deploy": "npm run build && gh-pages -d dist",
-    "release": "gh-pages -d dist"
+    "deploy": "npm run build:only && gh-pages -d my-poem-website",
+    "release": "gh-pages -d my-poem-website"
   },
   "authors": [
     "eveningwater"
