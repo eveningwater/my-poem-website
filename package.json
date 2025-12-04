@@ -4,6 +4,7 @@
   "description": "A static site based on dumi",
   "scripts": {
     "start": "npm run dev",
+    "stats": "npm run generate:stats",
     "dev": "npm run generate:stats && dumi dev",
     "build": "npm run generate:stats && dumi build",
     "generate:stats": "node scripts/generate-statistics.js",
