@@ -3,7 +3,7 @@
 nav: 歌曲
 ---
 
-<code src="../src/index.tsx" style="display:none;"></code>
+<code src="../src/index.tsx" inline></code>
 
 ## 人不如狗
 

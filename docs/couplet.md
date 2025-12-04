@@ -3,7 +3,7 @@
 nav: 对联
 ---
 
-<code src="../src/index.tsx" style="display:none;"></code>
+<code src="../src/index.tsx" inline></code>
 
 ## 无横批
 

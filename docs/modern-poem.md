@@ -3,7 +3,7 @@
 nav: 现代诗
 ---
 
-<code src="../src/index.tsx" style="display:none;"></code>
+<code src="../src/index.tsx" inline></code>
 
 ## 我的仇人
 

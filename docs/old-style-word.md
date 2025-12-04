@@ -3,7 +3,7 @@
 nav: 旧体词
 ---
 
-<code src="../src/index.tsx" style="display:none;"></code>
+<code src="../src/index.tsx" inline></code>
 
 ## 蝶恋花—朝露
 
