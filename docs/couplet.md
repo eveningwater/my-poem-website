@@ -3,7 +3,7 @@
 nav: 对联
 ---
 
-<code src="../src/components/Statistics/index.tsx"></code>
+<code src="../src/index.tsx"></code>
 
 ## 无横批
 

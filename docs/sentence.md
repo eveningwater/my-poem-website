@@ -3,7 +3,7 @@
 nav: 一些短句
 ---
 
-<code src="../src/components/Statistics/index.tsx"></code>
+<code src="../src/index.tsx"></code>
 
 ## 句一
 

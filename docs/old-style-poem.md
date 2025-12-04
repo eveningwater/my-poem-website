@@ -3,7 +3,7 @@
 nav: 旧体诗
 ---
 
-<code src="../src/components/Statistics/index.tsx"></code>
+<code src="../src/index.tsx"></code>
 
 # 五言绝句格律
 

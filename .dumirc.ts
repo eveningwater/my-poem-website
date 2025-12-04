@@ -46,9 +46,6 @@ const footerList = [
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
   publicPath: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
-  alias: {
-    '@': require('path').resolve(__dirname, 'src'),
-  },
   themeConfig: {
     name: 'poem',
     socialLinks: {
@@ -163,10 +160,5 @@ export default defineConfig({
       margin: 0;
     }
   `,
-  ],
-  // 配置 resolve 以包含 src 目录
-  resolve: {
-    docDirs: ['docs'],
-    atomDirs: [{ type: 'component', dir: 'src/components' }],
-  },
+  ]
 });

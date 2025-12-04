@@ -8,6 +8,6 @@ hero:
       link: /old-style-poem
 ---
 
-<code src="../src/components/Statistics/index.tsx"></code>
+<code src="../src/index.tsx"></code>
 
 [个人小说网站](https://www.eveningwater.com/novel-website/index.html)

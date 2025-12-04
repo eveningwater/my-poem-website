@@ -3,7 +3,7 @@
 nav: 文言文
 ---
 
-<code src="../src/components/Statistics/index.tsx"></code>
+<code src="../src/index.tsx"></code>
 
 ## 祭大非兄文
 

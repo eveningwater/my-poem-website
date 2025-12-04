@@ -3,7 +3,7 @@
 nav: 元曲
 ---
 
-<code src="../src/components/Statistics/index.tsx"></code>
+<code src="../src/index.tsx"></code>
 
 ## 双调-天净沙-秋
 
