@@ -24,7 +24,7 @@ const StatisticsComponent: React.FC = () => {
       const getBasePath = () => {
         const pathname = window.location.pathname;
         console.log(pathname);
-        if (pathname.startsWith('my-poem-website')) {
+        if (pathname.includes('my-poem-website')) {
           return '/my-poem-website/';
         }
         return '/';
