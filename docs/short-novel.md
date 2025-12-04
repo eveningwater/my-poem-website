@@ -3,7 +3,7 @@
 nav: 短篇小说
 ---
 
-<code src="../src/index.tsx"></code>
+<code src="../src/index.tsx" style="display:none;"></code>
 
 ## 推销
 
