@@ -10,6 +10,128 @@ const StatisticsComponent: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [stats, setStats] = useState<Statistics | null>(null);
   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const copyText = async (text: string) => {
+      // Prefer the modern clipboard API.
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        return;
+      }
+
+      // Fallback for older browsers.
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.setAttribute('readonly', 'true');
+      textarea.style.position = 'fixed';
+      textarea.style.left = '-9999px';
+      textarea.style.top = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+    };
+
+    const collectPoemTextFromHeading = (heading: HTMLElement) => {
+      const title = (heading.dataset.poemTitle || heading.innerText || '')
+        .replace(/\s*复制\s*$/, '')
+        .trim();
+
+      const blocks: string[] = [];
+      let node = heading.nextElementSibling as HTMLElement | null;
+      while (node && node.tagName.toLowerCase() !== 'h2') {
+        const text = (node.innerText || '').trim();
+        if (text) blocks.push(text);
+        node = node.nextElementSibling as HTMLElement | null;
+      }
+
+      return blocks.length ? `${title}\n\n${blocks.join('\n\n')}` : title;
+    };
+
+    const injectCopyButtons = () => {
+      const root =
+        (document.querySelector('.dumi-default-content') as HTMLElement | null) ||
+        (document.querySelector('.markdown') as HTMLElement | null) ||
+        (document.querySelector('article') as HTMLElement | null) ||
+        (document.querySelector('main') as HTMLElement | null) ||
+        document.body;
+
+      const headings = Array.from(root.querySelectorAll('h2')) as HTMLElement[];
+      headings.forEach((heading) => {
+        if (heading.dataset.poemCopyInjected === '1') return;
+        if (heading.closest('aside, nav, header, footer')) return;
+
+        const titleText = (heading.innerText || '').trim();
+        if (!titleText) return;
+
+        heading.dataset.poemTitle = titleText;
+
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'poem-copy-btn';
+        button.textContent = '复制';
+
+        button.addEventListener('click', async (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+
+          const originalText = button.textContent;
+          button.disabled = true;
+
+          try {
+            const textToCopy = collectPoemTextFromHeading(heading);
+            await copyText(textToCopy);
+            button.textContent = '已复制';
+            window.setTimeout(() => {
+              button.textContent = originalText || '复制';
+              button.disabled = false;
+            }, 1200);
+          } catch (error) {
+            console.error('Failed to copy poem:', error);
+            button.textContent = '复制失败';
+            window.setTimeout(() => {
+              button.textContent = originalText || '复制';
+              button.disabled = false;
+            }, 1200);
+          }
+        });
+
+        heading.appendChild(button);
+        heading.dataset.poemCopyInjected = '1';
+      });
+    };
+
+    const scheduleInject = (() => {
+      let rafId = 0;
+      return () => {
+        if (rafId) window.cancelAnimationFrame(rafId);
+        rafId = window.requestAnimationFrame(() => {
+          injectCopyButtons();
+        });
+      };
+    })();
+
+    scheduleInject();
+
+    const observeRoot =
+      (document.querySelector('.dumi-default-content') as HTMLElement | null) ||
+      (document.querySelector('.markdown') as HTMLElement | null) ||
+      (document.querySelector('article') as HTMLElement | null) ||
+      (document.querySelector('main') as HTMLElement | null) ||
+      document.body;
+
+    const observer = new MutationObserver(() => scheduleInject());
+    observer.observe(observeRoot, { childList: true, subtree: true });
+    window.addEventListener('hashchange', scheduleInject);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('hashchange', scheduleInject);
+    };
+  }, []);
+
   useEffect(() => {
     // 在客户端加载统计数据
     if (typeof window !== 'undefined') {
