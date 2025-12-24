@@ -84,7 +84,10 @@ export default defineConfig({
         },
         {
           title: '文',
-          children: [{ title: '文言文', link: '/classical-chinese' }],
+          children: [
+            { title: '文言文', link: '/classical-chinese' },
+            { title: '散文', link: '/prose' },
+          ],
         },
         {
           title: '词曲',
@@ -124,7 +127,10 @@ export default defineConfig({
         },
         {
           title: 'article',
-          children: [{ title: 'classical chinese', link: '/classical-chinese' }],
+          children: [
+            { title: 'classical chinese', link: '/classical-chinese' },
+            { title: 'prose', link: '/prose' },
+          ],
         },
         {
           title: 'word',

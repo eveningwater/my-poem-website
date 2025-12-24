@@ -21,6 +21,7 @@ const FILE_TYPE_MAP = {
   'song.md': '歌曲',
   'couplet.md': '对联',
   'yuan-opera.md': '元曲',
+  'prose.md': '散文',
   'classical-chinese.md': '文言文',
   'short-novel.md': '短篇小说',
   'sentence.md': '句',
@@ -134,7 +135,15 @@ function countWorksInFile(filePath) {
       count += 1;
     }
   }
-  
+
+  // 对于没有 H2 标题的内容（如散文），用“创作日期”行数兜底统计
+  if (count === 0) {
+    const dateCount = lines.filter((line) =>
+      /^\s*>\s*创作日期/.test(line.trim()),
+    ).length;
+    if (dateCount > 0) return dateCount;
+  }
+
   return count;
 }
 
@@ -192,4 +201,3 @@ try {
   console.error('生成统计数据时出错:', error);
   process.exit(1);
 }
-
