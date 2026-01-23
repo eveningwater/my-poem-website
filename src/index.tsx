@@ -50,6 +50,80 @@ const StatisticsComponent: React.FC = () => {
       return blocks.length ? `${title}\n\n${blocks.join('\n\n')}` : title;
     };
 
+    const ensureImagePreviewRoot = () => {
+      const existing = document.querySelector(
+        '.poem-img-preview-overlay',
+      ) as HTMLElement | null;
+      if (existing) return existing;
+
+      const overlay = document.createElement('div');
+      overlay.className = 'poem-img-preview-overlay';
+      overlay.setAttribute('aria-hidden', 'true');
+
+      const modal = document.createElement('div');
+      modal.className = 'poem-img-preview-modal';
+      modal.addEventListener('click', (e) => e.stopPropagation());
+
+      const closeBtn = document.createElement('button');
+      closeBtn.type = 'button';
+      closeBtn.className = 'poem-img-preview-close';
+      closeBtn.textContent = '×';
+
+      const link = document.createElement('a');
+      link.className = 'poem-img-preview-open';
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = '查看原图';
+
+      const img = document.createElement('img');
+      img.className = 'poem-img-preview-img';
+      img.alt = '';
+
+      const header = document.createElement('div');
+      header.className = 'poem-img-preview-header';
+      header.appendChild(link);
+      header.appendChild(closeBtn);
+
+      modal.appendChild(header);
+      modal.appendChild(img);
+      overlay.appendChild(modal);
+
+      const close = () => {
+        overlay.classList.remove('is-open');
+        overlay.setAttribute('aria-hidden', 'true');
+        document.documentElement.classList.remove('poem-img-preview-lock');
+      };
+
+      overlay.addEventListener('click', close);
+      closeBtn.addEventListener('click', close);
+
+      const onKeyDown = (e: KeyboardEvent) => {
+        if (e.key === 'Escape') close();
+      };
+      window.addEventListener('keydown', onKeyDown);
+
+      document.body.appendChild(overlay);
+
+      (overlay as any).__poemClose = close;
+      (overlay as any).__poemImg = img;
+      (overlay as any).__poemLink = link;
+      return overlay;
+    };
+
+    const openImagePreview = (src: string, alt: string) => {
+      const overlay = ensureImagePreviewRoot();
+      const img = (overlay as any).__poemImg as HTMLImageElement;
+      const link = (overlay as any).__poemLink as HTMLAnchorElement;
+
+      img.src = src;
+      img.alt = alt || '';
+      link.href = src;
+
+      overlay.classList.add('is-open');
+      overlay.setAttribute('aria-hidden', 'false');
+      document.documentElement.classList.add('poem-img-preview-lock');
+    };
+
     const injectCopyButtons = () => {
       const root =
         (document.querySelector('.dumi-default-content') as HTMLElement | null) ||
@@ -103,17 +177,54 @@ const StatisticsComponent: React.FC = () => {
       });
     };
 
-    const scheduleInject = (() => {
+    const injectImageThumbs = () => {
+      const root =
+        (document.querySelector('.dumi-default-content') as HTMLElement | null) ||
+        (document.querySelector('.markdown') as HTMLElement | null) ||
+        (document.querySelector('article') as HTMLElement | null) ||
+        (document.querySelector('main') as HTMLElement | null) ||
+        document.body;
+
+      const images = Array.from(root.querySelectorAll('img')) as HTMLImageElement[];
+      images.forEach((img) => {
+        if (img.dataset.poemThumbInjected === '1') return;
+        if (img.closest('aside, nav, header, footer')) return;
+        if (!img.getAttribute('src')) return;
+
+        img.classList.add('poem-img-thumb');
+        img.decoding = 'async';
+        if (!img.loading) img.loading = 'lazy';
+        img.tabIndex = img.tabIndex >= 0 ? img.tabIndex : 0;
+
+        const open = (e: Event) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const src = img.currentSrc || img.src;
+          openImagePreview(src, img.alt || '');
+        };
+
+        img.addEventListener('click', open);
+        img.addEventListener('keydown', (e) => {
+          const key = (e as KeyboardEvent).key;
+          if (key === 'Enter' || key === ' ') open(e);
+        });
+
+        img.dataset.poemThumbInjected = '1';
+      });
+    };
+
+    const scheduleEnhance = (() => {
       let rafId = 0;
       return () => {
         if (rafId) window.cancelAnimationFrame(rafId);
         rafId = window.requestAnimationFrame(() => {
           injectCopyButtons();
+          injectImageThumbs();
         });
       };
     })();
 
-    scheduleInject();
+    scheduleEnhance();
 
     const observeRoot =
       (document.querySelector('.dumi-default-content') as HTMLElement | null) ||
@@ -122,13 +233,13 @@ const StatisticsComponent: React.FC = () => {
       (document.querySelector('main') as HTMLElement | null) ||
       document.body;
 
-    const observer = new MutationObserver(() => scheduleInject());
+    const observer = new MutationObserver(() => scheduleEnhance());
     observer.observe(observeRoot, { childList: true, subtree: true });
-    window.addEventListener('hashchange', scheduleInject);
+    window.addEventListener('hashchange', scheduleEnhance);
 
     return () => {
       observer.disconnect();
-      window.removeEventListener('hashchange', scheduleInject);
+      window.removeEventListener('hashchange', scheduleEnhance);
     };
   }, []);
 

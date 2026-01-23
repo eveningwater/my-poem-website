@@ -192,6 +192,92 @@
   cursor: not-allowed;
 }
 
+.markdown img.poem-img-thumb {
+  display: block;
+  max-width: 160px;
+  width: 100%;
+  height: auto;
+  margin: 12px auto;
+  cursor: zoom-in;
+}
+
+html.poem-img-preview-lock {
+  overflow: hidden;
+}
+
+.poem-img-preview-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+}
+
+.poem-img-preview-overlay.is-open {
+  display: flex;
+}
+
+.poem-img-preview-modal {
+  width: min(92vw, 980px);
+  max-height: 92vh;
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+}
+
+.poem-img-preview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.poem-img-preview-open {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.poem-img-preview-open:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.poem-img-preview-close {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.poem-img-preview-close:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.poem-img-preview-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: calc(92vh - 54px);
+  object-fit: contain;
+  background: #111;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .statistics-trigger {
@@ -204,5 +290,9 @@
   .statistics-modal {
     width: 95%;
     height: 100%;
+  }
+
+  .poem-img-thumb {
+    max-width: 280px;
   }
 }
