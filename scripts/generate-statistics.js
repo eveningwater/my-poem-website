@@ -40,7 +40,8 @@ function shouldExclude(title) {
 function extractCountFromTitle(title) {
   const match = title.match(/([一二三四五六七八九十]+)首/);
   if (match) {
-    const chineseNumbers = {
+    const chineseNum = match[1];
+    const chineseDigits = {
       一: 1,
       二: 2,
       三: 3,
@@ -50,15 +51,29 @@ function extractCountFromTitle(title) {
       七: 7,
       八: 8,
       九: 9,
-      十: 10,
     };
-    const chineseNum = match[1];
-    let count = 0;
-    for (const char of chineseNum) {
-      if (chineseNumbers[char]) {
-        count = count * 10 + chineseNumbers[char];
+
+    const parseChineseNumber = (text) => {
+      const trimmed = String(text || '').trim();
+      if (!trimmed) return 0;
+
+      if (!trimmed.includes('十')) {
+        return chineseDigits[trimmed] || 0;
       }
-    }
+
+      if (trimmed === '十') return 10;
+
+      const parts = trimmed.split('十');
+      const tensPart = parts[0];
+      const onesPart = parts[1];
+
+      const tens = tensPart ? chineseDigits[tensPart] || 0 : 1;
+      const ones = onesPart ? chineseDigits[onesPart] || 0 : 0;
+
+      return tens * 10 + ones;
+    };
+
+    const count = parseChineseNumber(chineseNum);
     return count || 1;
   }
   return 1;
