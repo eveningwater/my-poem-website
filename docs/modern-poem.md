@@ -453,7 +453,7 @@ nav: 现代诗
 
 ## 献给母亲的歌
 
-![](./images/献给母亲的歌.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/献给母亲的歌.png)
 
 下雨了，
 
@@ -543,7 +543,7 @@ nav: 现代诗
 
 ## 作品
 
-![](./images/作品-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/作品-1.png)
 
 轻轻地，抚摸我的珍宝，
 
@@ -565,7 +565,7 @@ nav: 现代诗
 
 ## 熊
 
-![](./images/熊-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/熊-1.png)
 
 我只是一种低贱的生命，
 
@@ -599,7 +599,7 @@ nav: 现代诗
 
 ## 致青春
 
-![](./images/致青春-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/致青春-1.png)
 
 我们都是祖国的花朵，
 
@@ -625,7 +625,7 @@ nav: 现代诗
 
 ## 叶
 
-![](./images/叶-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/叶-1.png)
 
 一阵秋风跑过，
 
@@ -663,7 +663,7 @@ nav: 现代诗
 
 ## 蜘蛛
 
-![](./images/蜘蛛-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/蜘蛛-1.png)
 
 八只脚不停地走动，
 
@@ -703,7 +703,7 @@ nav: 现代诗
 
 ## 我爱你
 
-![](./images/我爱你-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/我爱你-1.png)
 
 如果让我为你写一首诗，
 
@@ -729,7 +729,7 @@ nav: 现代诗
 
 ## 你和我
 
-![](./images/你和我-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/你和我-1.png)
 
 抬首望天上的明月，
 
@@ -745,7 +745,7 @@ nav: 现代诗
 
 ## 别了，川信
 
-![](./images/别了，川信-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/别了，川信-1.png)
 
 道一声别离，道一声别离，别了，川信。
 
@@ -769,7 +769,7 @@ nav: 现代诗
 
 ## 生活
 
-![](./images/生活-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/生活-1.png)
 
 生活就是一只带刺的刺猬，
 
@@ -801,7 +801,7 @@ nav: 现代诗
 
 ## 诗魂
 
-![](./images/诗魂-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/诗魂-1.png)
 
 对于诗人这一身份，
 
@@ -859,7 +859,7 @@ nav: 现代诗
 
 ## 海之蓝
 
-![](./images/海之蓝-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/海之蓝-1.png)
 
 大海是蓝色的，
 
@@ -899,7 +899,7 @@ nav: 现代诗
 
 ## 孤雁
 
-![](./images/孤雁-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/孤雁-1.png)
 
 一只雁子失了群，
 
@@ -961,7 +961,7 @@ nav: 现代诗
 
 ## 夕水
 
-![](./images/夕水-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/夕水-1.png)
 
 我叫夕水，
 
@@ -5480,7 +5480,7 @@ ai，
 
 ## 吃面
 
-![](./images/吃面-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/吃面-1.png)
 
 用筷子夹起一条条面，
 
@@ -5494,7 +5494,7 @@ ai，
 
 ## 做梦
 
-![](./images/做梦-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/做梦-1.png)
 
 每天晚上躺在床上。
 
@@ -5512,7 +5512,7 @@ ai，
 
 ## 离别返程
 
-![](./images/离别返程-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/离别返程-1.png)
 
 人生总要前往站台，
 

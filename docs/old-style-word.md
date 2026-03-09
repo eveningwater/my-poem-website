@@ -641,7 +641,7 @@ nav: 旧体词
 
 ## 江城子－忆昨日夜雨所寄
 
-![](./images/江城子-忆昨日夜雨所寄-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/江城子-忆昨日夜雨所寄-1.png)
 
 东风吹尽人心忧，明灯下，欲一秋。可怜浮水，竞相争飘流。
 
@@ -675,7 +675,7 @@ nav: 旧体词
 
 ## 水调歌头-归思
 
-![](./images/水调歌头-归思-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/水调歌头-归思-1.png)
 
 久困书生里，离家已半华。遥望青山绿木，天地竞无涯。
 
@@ -721,7 +721,7 @@ nav: 旧体词
 
 ## 玉楼春-夜
 
-![](./images/玉楼春-夜-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/玉楼春-夜-1.png)
 
 夜里街灯明如昼，行人甚少静无声。
 
@@ -757,7 +757,7 @@ nav: 旧体词
 
 ## 蝶恋花-咏荷
 
-![](./images/蝶恋花-咏荷-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/蝶恋花-咏荷-1.png)
 
 唯将闲情赏荷处，瞟池所注，妖娆花无数。
 
@@ -791,7 +791,7 @@ nav: 旧体词
 
 ## 长命女-岁愿
 
-![](./images/长命女-岁愿-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/长命女-岁愿-1.png)
 
 一岁天，而今匆匆不得闲。
 
@@ -819,7 +819,7 @@ nav: 旧体词
 
 ## 浣溪沙-秦岭
 
-![](./images/浣溪沙-秦岭-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/浣溪沙-秦岭-1.png)
 
 秦岭向来为人传，
 
@@ -865,7 +865,7 @@ nav: 旧体词
 
 ## 蝶恋花
 
-![](./images/蝶恋花-书海红颜须落雁-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/蝶恋花-书海红颜须落雁-1.png)
 
 书海伊人须落雁，若何相逢，怜我悠悠面。
 
@@ -899,7 +899,7 @@ nav: 旧体词
 
 ## 贺新郎-夜愁
 
-![](./images/贺新郎-夜愁-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/贺新郎-夜愁-1.png)
 
 彩笔题新句。
 
@@ -971,7 +971,7 @@ nav: 旧体词
 
 ## 鹊桥仙-牛郎织女
 
-![](./images/鹊桥仙-牛郎织女-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/鹊桥仙-牛郎织女-1.png)
 
 牛郎织女，惟有相会，鹊桥纤云弄成。
 
@@ -1005,7 +1005,7 @@ nav: 旧体词
 
 ## 浣溪沙-独望凭阑斜日暄
 
-![](./images/浣溪沙-独望凭阑斜日暄-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/浣溪沙-独望凭阑斜日暄-1.png)
 
 凭兰独望斜阳暄，芳草何处今又言。
 
@@ -1065,7 +1065,7 @@ nav: 旧体词
 
 ## 蝶恋花·红豆南方深有意
 
-![](./images/蝶恋花-红豆南方深有意-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/蝶恋花-红豆南方深有意-1.png)
 
 南国红豆最有情，直作相思，为君化蝶飞。
 
@@ -1099,7 +1099,7 @@ nav: 旧体词
 
 ## 蝶恋花·相思
 
-![](./images/蝶恋花-相见争如春水涨-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/蝶恋花-相见争如春水涨-1.png)
 
 相逢只应是春期，脉脉相视，郎妾恨一体。
 
@@ -1133,7 +1133,7 @@ nav: 旧体词
 
 ## 摸鱼儿·相思
 
-![](./images/摸鱼儿-相思-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/摸鱼儿-相思-1.png)
 
 玉面花容唯有忆，初时能知分飞？
 

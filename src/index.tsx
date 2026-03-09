@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 
+
 interface Statistics {
   [key: string]: number;
   total: number;
@@ -177,7 +178,7 @@ const StatisticsComponent: React.FC = () => {
       });
     };
 
-    const injectImageThumbs = () => {
+    const injectImageThumbs = async () => {
       const root =
         (document.querySelector('.dumi-default-content') as HTMLElement | null) ||
         (document.querySelector('.markdown') as HTMLElement | null) ||
@@ -186,6 +187,7 @@ const StatisticsComponent: React.FC = () => {
         document.body;
 
       const images = Array.from(root.querySelectorAll('img')) as HTMLImageElement[];
+
       images.forEach((img) => {
         if (img.dataset.poemThumbInjected === '1') return;
         if (img.closest('aside, nav, header, footer')) return;
@@ -256,7 +258,6 @@ const StatisticsComponent: React.FC = () => {
       // 获取当前页面的 base path
       const getBasePath = () => {
         const pathname = window.location.pathname;
-        console.log(pathname);
         if (pathname.includes('my-poem-website')) {
           return '/my-poem-website/';
         }

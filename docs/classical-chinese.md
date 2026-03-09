@@ -507,7 +507,7 @@ getCss 为 window.getComputedStyle 方包耳!,\_create 为 document.createElemen
 
 ## 登乌尤寺记
 
-![](./images/登乌尤寺记-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/登乌尤寺记-1.png)
 
 今若闲登乌尤寺，是日高照，乃知其然。黄花于碧水之上，红亭同之，约数百人于亭中观水休憩，趣也。
 

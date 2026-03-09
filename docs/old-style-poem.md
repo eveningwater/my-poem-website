@@ -7,7 +7,7 @@ nav: 旧体诗
 
 ## 七绝-山村小景
 
-![](./images/山村小景.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/山村小景.png)
 
 小村风光倍是静，独立危楼观有情。
 
@@ -29,7 +29,7 @@ nav: 旧体诗
 
 ## 五绝-是夜雨中有感
 
-![](./images/五绝-是夜雨中所感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-是夜雨中所感-1.png)
 
 雨中忽所感，如今未来思。
 
@@ -293,7 +293,7 @@ nav: 旧体诗
 
 ### 其五
 
-![](./images/七绝-遣怀八首其五-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/三绝-爱你如爱我-1.png)
 
 早车每日晚同车，最叹韶华是此虚。
 
@@ -627,7 +627,7 @@ nav: 旧体诗
 
 ### 七绝-其一
 
-![](./images/遥望盛林遮日晖-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-小池-1.png)
 
 遥望盛林遮日晖，
 
@@ -903,7 +903,7 @@ nav: 旧体诗
 
 ## 五律-奉赠周树人之歌而颂其文
 
-![](./images/五律-奉赠周树人之歌而颂其文-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-周树人之歌-1.png)
 
 文坛一颗星，光明若日月。
 
@@ -937,7 +937,7 @@ nav: 旧体诗
 
 ## 五律-又一日书舍有怀而作
 
-![](./images/五律-又一日书舍有怀而作-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-又一日书舍有怀而作-1.png)
 
 文山多辛苦，收果未少数。
 
@@ -971,7 +971,7 @@ nav: 旧体诗
 
 ## 五律-深夜不眠
 
-![](./images/五律-深夜不眠-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-深夜不眠-1.png)
 
 向来莫知愁,醉酒多烦忧。
 
@@ -1007,11 +1007,11 @@ nav: 旧体诗
 
 ## 七绝-深夜不眠
 
-![](./images/七绝-深夜不眠-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-深夜不眠-1.png)
 
 醉入梦乡深夜觉，
 
-几番辗转难再眠。
+屡次辗转难再眠。
 
 忽于床前惊坐起，
 
@@ -1041,7 +1041,7 @@ nav: 旧体诗
 
 ## 五律-百合
 
-![](./images/五律-百合-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-百合-1.png)
 
 断涯百合微，自欲成花魁。
 
@@ -1075,7 +1075,7 @@ nav: 旧体诗
 
 ## 七绝-半夜思
 
-![](./images/七绝-半夜思-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-半夜思-1.png)
 
 不知梦中双双飞，
 
@@ -1105,7 +1105,7 @@ nav: 旧体诗
 
 ## 五律-是夜歌孔明
 
-![](./images/五律-是夜歌孔明-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-是夜歌孔明-1.png)
 
 感情出林间，赴将帝遗言。
 
@@ -1139,7 +1139,7 @@ nav: 旧体诗
 
 ## 七绝-观茶
 
-![](./images/七绝-观茶-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-观茶-1.png)
 
 黄昏驱车急入园，
 
@@ -1169,7 +1169,7 @@ nav: 旧体诗
 
 ## 七律-兴游峨眉花园而作
 
-![](./images/七律-兴游峨眉花园而作-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-兴游峨眉花园而作-1.png)
 
 雨后世间不似濯，行人依旧忙为活。
 
@@ -1301,7 +1301,7 @@ nav: 旧体诗
 
 ## 七律-早梅
 
-![](./images/七律-早梅-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-早梅-1.png)
 
 闲者早起行空园，晨曦照下梅闪红。
 
@@ -1335,7 +1335,7 @@ nav: 旧体诗
 
 ## 古风-幻雪
 
-![](./images/古风-幻雪-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-幻雪-1.png)
 
 世间柳絮胜千万，更无一片落君前。
 
@@ -1363,7 +1363,7 @@ nav: 旧体诗
 
 ## 七绝-过山桥
 
-![](./images/七绝-过山桥-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-过山桥-1.png)
 
 向晚适心游山桥，直上峰顶入云霄。
 
@@ -1385,7 +1385,7 @@ nav: 旧体诗
 
 ## 七绝-望雨有怀
 
-![](./images/七绝-望雨有怀-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-望雨有怀-1.png)
 
 细雨跳池散波纹，万千绿流即失魂。
 
@@ -1407,7 +1407,7 @@ nav: 旧体诗
 
 ## 七绝-咏荷
 
-![](./images/七绝-咏荷-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-咏荷-1.png)
 
 何处细流育池荷，未见树阴照清叶。
 
@@ -1455,7 +1455,7 @@ nav: 旧体诗
 
 ## 七绝-危楼有感
 
-![](./images/七绝-危楼有感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-危楼有感-1.png)
 
 危楼窥视尽黑云，车水马龙见城魂。
 
@@ -1477,7 +1477,7 @@ nav: 旧体诗
 
 ## 七绝-登峨眉山有感
 
-![](./images/七绝-登峨眉山有感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-登峨眉山有感-1.png)
 
 双眼骄日何如暖，数看远峰尽盘旋。
 
@@ -10620,7 +10620,7 @@ nav: 旧体诗
 
 ## 七绝-和酬禅师颂古诗
 
-![](./images/七绝-和酬禅师颂古诗-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-和酬禅师颂古诗-1.png)
 
 婵娟秋日百芳春，白雪冬时风夏旬。
 
@@ -10636,7 +10636,7 @@ nav: 旧体诗
 
 ## 七绝-生尘
 
-![](./images/七绝-生尘-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-生尘-1.png)
 
 谁家声鸟叫眠人，疑是东风急唤春。
 
@@ -10984,7 +10984,7 @@ nav: 旧体诗
 
 ## 七绝-初五早感
 
-![](./images/七绝-初五早感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-初五早感-1.png)
 
 晓起初霞照梦然，便知新日已成篇。
 
@@ -11000,7 +11000,7 @@ nav: 旧体诗
 
 ## 五律-午后乐山乌尤寺下
 
-![](./images/五律-午后乐山乌尤寺下-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-午后乐山乌尤寺下-1.png)
 
 黄花碧水长，日照满晴光。
 
@@ -11024,7 +11024,7 @@ nav: 旧体诗
 
 ## 七律-峨秀湖边有感
 
-![](./images/七律-峨秀湖边有感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-峨秀湖边有感-1.png)
 
 常作闲人不觉愁，新年时节更温柔。
 
@@ -11048,9 +11048,9 @@ nav: 旧体诗
 
 ## 五律-峨秀湖桥上
 
-![](./images/五律-峨秀湖桥上-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五律-峨秀湖桥上-1.png)
 
-![](./images/五律-峨秀湖桥上改-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五律-峨秀湖桥上改-1.png)
 
 桥上漫行后，始惊风景嘉。
 
@@ -11076,7 +11076,7 @@ nav: 旧体诗
 
 ## 七绝-答微信朋友圈网友诗人之评
 
-![](./images/七绝-答微信朋友圈网友诗人之评-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-答微信朋友圈网友诗人之评-1.png)
 
 > 题记：常发拙作于微信朋友圈自娱自乐，偶见一网友评曰：一天到晚发何，真把自己当诗人。故写一诗以解答。
 
@@ -11094,7 +11094,7 @@ nav: 旧体诗
 
 ## 七绝-酿酒
 
-![](./images/七绝-酿酒-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-酿酒-1.png)
 
 水源自是出山泉，糖化窖泥生酒花。
 
@@ -11126,7 +11126,7 @@ nav: 旧体诗
 
 ## 元宵早感
 
-![](./images/元宵早感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-元宵早感-1.png)
 
 少年元夕读书时，长大元宵工作期。
 
@@ -11150,7 +11150,7 @@ nav: 旧体诗
 
 ## 七绝-读当今美以伊战争新闻有感
 
-![](./images/七绝-读当今美以伊战争新闻有感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-读当今美以伊战争新闻有感-1.png)
 
 每代人生各有愁，古时战乱至今留。
 
@@ -11166,7 +11166,7 @@ nav: 旧体诗
 
 ## 七绝-裁员离职所感
 
-![](./images/七绝-裁员离职所感-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-裁员离职所感-1.png)
 
 人到用时方恨少，真无用后便随消。
 
@@ -11182,7 +11182,7 @@ nav: 旧体诗
 
 ## 七绝-雨归
 
-![](./images/七绝-雨归-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-雨归-1.png)
 
 向晚天昏云且暗，料知此夜雨深狂。
 
@@ -11200,7 +11200,7 @@ nav: 旧体诗
 
 ## 七绝-赠元稹
 
-![](./images/七绝-赠元稹-1.png)
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-赠元稹-1.png)
 
 字里相思如海深，人中情意似冰阴。
 
