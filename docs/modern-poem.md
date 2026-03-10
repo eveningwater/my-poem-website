@@ -5534,6 +5534,8 @@ ai，
 
 ## 之前的花哪儿去了
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/之前的花儿哪儿去了-1.png)
+
 之前走在路上，
 
 一排排树开满了白花。

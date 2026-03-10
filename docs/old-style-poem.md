@@ -11216,6 +11216,8 @@ nav: 旧体诗
 
 ## 五律-春恨
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五律-春恨-1.png)
+
 人生总有愁，愁极是何收？
 
 努力真堪苦，懒闲深不休。
