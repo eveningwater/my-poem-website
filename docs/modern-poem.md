@@ -1001,6 +1001,8 @@ nav: 现代诗
 
 ## 自诫
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/自诫-1.png)
+
 总把自己当作一朵花，
 
 其实自己什么也不是。
@@ -1020,6 +1022,8 @@ nav: 现代诗
 > 创作日期: 2013 年 01 月 11 日
 
 ## 你的沉默是我的难过
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/你的沉默是我的难过-1.png)
 
 你的沉默是我的难过，
 

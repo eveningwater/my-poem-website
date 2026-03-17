@@ -1551,6 +1551,8 @@ nav: 旧体诗
 
 ## 古风-双愁诗
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/古风-双愁诗-1.png)
+
 我所思兮在昔日，欲往从之折枝迟，时时叨念多恨涕。
 
 人生赠我是春秋，何以报之笑与忧。
@@ -1581,6 +1583,8 @@ nav: 旧体诗
 
 ## 七绝-哀民诗
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-哀民诗-1.png)
+
 贵子奢侈饱至伤，
 
 万家贫民饥又僵。
@@ -1608,6 +1612,8 @@ nav: 旧体诗
 > 创作日期: 2012 年 03 月 29 日
 
 ## 古风-节妇吟
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/古风-节妇吟-1.png)
 
 君知伊有意，无那难相依。
 
@@ -1646,6 +1652,8 @@ nav: 旧体诗
 > 创作日期: 2023 年 11 月 21 日， 2025年12月11日调整
 
 ## 七绝-秋感
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-秋感-1.png)
 
 黄花落叶秋风扫，
 
