@@ -1053,6 +1053,8 @@ nav: 现代诗
 
 ## 一滴水
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/一滴水-1.png)
+
 一滴水是多么渺小，
 
 稍微一下温度的升高，
@@ -1080,6 +1082,8 @@ nav: 现代诗
 > 创作日期: 2012 年 06 月 29 日
 
 ## 相信自己
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/相信自己-2.png)
 
 有的人相信神灵，
 

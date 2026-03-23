@@ -1715,6 +1715,8 @@ nav: 旧体诗
 
 ## 七绝-雨中草
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-雨中草-2.png)
+
 天雨淅沥飞天地，
 
 强命草绿穷吮吸。
@@ -1748,6 +1750,8 @@ nav: 旧体诗
 > 创作日期: 2012 年 02 月 15 日，2025年12月30日调整
 
 ## 七绝-夜书所思
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-夜书所思-2.png)
 
 浮名如花飘世事，
 
