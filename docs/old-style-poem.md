@@ -1813,6 +1813,8 @@ nav: 旧体诗
 
 ## 七绝-春日送别
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-春日送别-1.png)
+
 何时芳草田里生，
 
 曾经流逝思为梦。
@@ -1840,6 +1842,8 @@ nav: 旧体诗
 > 创作日期: 2013 年 02 月 26 日作，2025年11月28日调整
 
 ## 五绝-示志
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-示志-1.png)
 
 学古作人杰，
 
@@ -1977,7 +1981,9 @@ nav: 旧体诗
 
 ## 七律-咏雁词
 
-### 闻说一事，河面成冰，一雁冻死于下，其伴携子于上，呼声连连，故有感而发
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七律-咏雁词-1.png)
+
+> 闻说一事，河面成冰，一雁冻死于下，其伴携子于上，呼声连连，故有感而发
 
 谁料流水未敌寒，雁在其中竞安然。
 
@@ -2075,6 +2081,8 @@ nav: 旧体诗
 
 ## 五绝-竹梅
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五绝-竹梅-1.png)
+
 傲竹立江山，寒梅扎断桥。
 
 复为冰雪日，其实未知晓。
@@ -2094,6 +2102,8 @@ nav: 旧体诗
 > 创作日期: 2012 年 6 月 9 日作，2025年12月23日调整
 
 ## 五律-秋夜望月，起兴，书所思，故题此诗
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五律-秋夜望月，起兴，书所思，故题此诗-1.png)
 
 有情叹归家，今夜风光下。
 
@@ -2126,6 +2136,8 @@ nav: 旧体诗
 > 创作日期: 2012 年 6 月 21 日作，2025年12月30日调整
 
 ## 七绝-乐陵枣
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-乐陵枣-1.png)
 
 春树春草绿一片，黄花漫天使人眩。
 
@@ -2179,6 +2191,8 @@ nav: 旧体诗
 
 ## 七绝-黄鹤楼
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-黄鹤楼-1.png)
+
 黄鹤楼前尽大州，茫茫九派出沧流。
 
 我心犹似横穿线，不越长江死不休。
@@ -2198,6 +2212,8 @@ nav: 旧体诗
 > 创作日期: 2016 年 11 月 17 日作，2025年11月07日调整
 
 ## 五律-送别
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/五律-送别-1.png)
 
 谁知别离苦？谁解无长聚？
 
