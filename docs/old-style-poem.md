@@ -2307,6 +2307,8 @@ nav: 旧体诗
 
 ## 七绝-雪
 
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-雪-1.png)
+
 昨日细雪忽飞奔，
 
 随风一摇难飘尽。
@@ -11567,6 +11569,8 @@ nav: 旧体诗
 > 创作日期: 2026 年 04 月 17 日作
 
 ## 七绝-夜深
+
+![](https://raw.atomgit.com/eveningwater11/some-images/raw/main/my-poem-images/七绝-夜深-1.png)
 
 夜深床影听窗外，车过声清恼不眠。
 
