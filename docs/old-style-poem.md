@@ -2337,6 +2337,8 @@ nav: 旧体诗
 
 ## 五绝-夜思
 
+![](https://raw.atomgit.com/eveningwater11/some-images-2/raw/main/my-poem-images/五绝-夜思-1.png)
+
 独自愁望夜，
 
 西风带无月。
@@ -2364,6 +2366,8 @@ nav: 旧体诗
 > 创作日期: 2013 年 03 月 01 日作，2025年12月31日调整
 
 ## 七绝-归思
+
+![](https://raw.atomgit.com/eveningwater11/some-images-2/raw/main/my-poem-images/七绝-归思-1.png)
 
 别家半华归思生，
 
