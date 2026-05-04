@@ -11612,6 +11612,8 @@ nav: 旧体诗
 
 ## 七绝-早起
 
+![](https://raw.atomgit.com/eveningwater11/some-images-2/raw/main/my-poem-images/七绝-早起-1.png)
+
 晨起开窗红满天，始知初日似成仙。
 
 人间照得皆温暖，谁不偷闲欲好眠？
