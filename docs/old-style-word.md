@@ -3865,6 +3865,8 @@ nav: 旧体词
 
 ## 浪淘沙令·夜听雨声和后主韵
 
+![](https://raw.atomgit.com/eveningwater11/some-images-2/raw/main/my-poem-images/浪淘沙令·夜听雨声和后主韵-1.png)
+
 窗外雨绵绵，睡意阑珊。听声未解五更寒。而立年华长寂寞，别是倾欢。
 
 起坐岂凭栏，非苦江山，人于心上总留难。功事深情皆不住，何此尘间？
