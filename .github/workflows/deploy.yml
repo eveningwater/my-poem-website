@@ -21,7 +21,7 @@ jobs:
         run: npm install pnpm -g
         
       - name: Install dependencies
-        run: pnpm install && pnpm approve-builds
+        run: pnpm approve-builds && pnpm install 
         
       - name: Set up Git config
         run: |
