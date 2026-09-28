@@ -18,10 +18,10 @@ jobs:
           node-version: '18'
 
       - name: Install pnpm
-        run: npm install pnpm -g
+        run: npm install pnpm@9 -g
         
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
         
       - name: Set up Git config
         run: |
