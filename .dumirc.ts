@@ -171,5 +171,10 @@ export default defineConfig({
       margin: 0;
     }
   `,
-  ]
+  ],
+  // Netlify Identity 的邮件链接（重置密码、邀请、验证）指向站点根路径，
+  // 但 Identity 组件只在 /admin/ 页面加载。检测到 token 时自动跳转到 /admin/。
+  headScripts: [
+    `(function(){var h=window.location.hash;if(/(recovery_token|invite_token|confirmation_token|email_change_token)=/.test(h)){window.location.replace('/admin/'+h);}})();`,
+  ],
 });
