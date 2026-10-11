@@ -1,0 +1,134 @@
+# Decap CMS 配置文档
+# 官方文档：https://decapcms.org/docs/configuration-options/
+
+# 后端：使用 Git Gateway（配合 Netlify Identity 做鉴权）
+backend:
+  name: git-gateway
+  branch: main
+
+# 媒体文件上传配置
+# 上传到仓库的 public/images/uploads 目录
+# 站点部署在 GitHub Pages 子路径 /my-poem-website/ 下，因此 public_folder 带子路径前缀
+media_folder: "public/images/uploads"
+public_folder: "/my-poem-website/images/uploads"
+
+# 站点语言
+locale: "zh-CN"
+
+# 内容集合：每个 docs/*.md 文件对应一个可编辑条目
+collections:
+  # ===== 首页 =====
+  - name: "index"
+    label: "首页"
+    file: "docs/index.md"
+    fields:
+      - { name: "title", label: "页面标题", widget: "string" }
+      - {
+          name: "hero",
+          label: "首页横幅",
+          widget: "object",
+          fields:
+            [
+              { name: "title", label: "标题", widget: "string" },
+              { name: "description", label: "描述", widget: "string" },
+              {
+                name: "actions",
+                label: "操作按钮",
+                widget: "list",
+                fields:
+                  [
+                    { name: "text", label: "按钮文字", widget: "string" },
+                    { name: "link", label: "跳转链接", widget: "string" },
+                  ],
+              },
+            ],
+        }
+      - { name: "body", label: "正文", widget: "markdown", required: false }
+
+  # ===== 旧体诗 =====
+  - name: "old-style-poem"
+    label: "旧体诗"
+    file: "docs/old-style-poem.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 现代诗 =====
+  - name: "modern-poem"
+    label: "现代诗"
+    file: "docs/modern-poem.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 旧体词 =====
+  - name: "old-style-word"
+    label: "旧体词"
+    file: "docs/old-style-word.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 元曲 =====
+  - name: "yuan-opera"
+    label: "元曲"
+    file: "docs/yuan-opera.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 歌曲 =====
+  - name: "song"
+    label: "歌曲"
+    file: "docs/song.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 文言文 =====
+  - name: "classical-chinese"
+    label: "文言文"
+    file: "docs/classical-chinese.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 散文 =====
+  - name: "prose"
+    label: "散文"
+    file: "docs/prose.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 句 =====
+  - name: "sentence"
+    label: "短句"
+    file: "docs/sentence.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 对联 =====
+  - name: "couplet"
+    label: "对联"
+    file: "docs/couplet.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 短篇小说 =====
+  - name: "short-novel"
+    label: "短篇小说"
+    file: "docs/short-novel.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 小说设计 =====
+  - name: "novel-design"
+    label: "小说设计"
+    file: "docs/novel-design.md"
+    fields:
+      - { name: "nav", label: "导航名称", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
