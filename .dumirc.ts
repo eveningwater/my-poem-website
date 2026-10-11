@@ -43,9 +43,13 @@ const footerList = [
   },
 ];
 
+// Netlify 构建时会设置 NETLIFY=true，部署在根路径；其余环境（GitHub Pages）用子路径
+const isNetlify = process.env.NETLIFY === 'true';
+const siteBase = isNetlify ? '/' : '/my-poem-website/';
+
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
-  publicPath: process.env.NODE_ENV === 'production' ? '/my-poem-website/' : '/',
+  base: process.env.NODE_ENV === 'production' ? siteBase : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? siteBase : '/',
   outputPath: 'my-poem-website',
   themeConfig: {
     name: 'poem',
