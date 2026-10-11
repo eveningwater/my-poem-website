@@ -36,8 +36,8 @@
         window.netlifyIdentity.on("init", function (user) {
           if (!user) {
             window.netlifyIdentity.on("login", function () {
-              // GitHub Pages 子路径部署，需带子路径前缀
-              document.location.href = "/my-poem-website/admin/";
+              // 登录后刷新当前页面（兼容根路径和子路径部署）
+              document.location.reload();
             });
           }
         });
