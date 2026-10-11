@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>诗歌后台管理</title>
+    <!-- Netlify Identity 必须在 Decap CMS 之前加载，用于 Git Gateway 鉴权 -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Decap CMS 主脚本 -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <style>
+      /* 隐藏 Netlify Identity 默认按钮，由 Decap CMS 登录页接管 */
+      [data-netlify-identity-button] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      如果站点部署在 GitHub Pages（非 Netlify），需要手动指定 Netlify Identity 的 API 地址。
+      把下面的 YOUR-SITE 替换为你的 Netlify 站点名（例如 https://my-poem.netlify.app），
+      并取消注释。如果站点直接部署在 Netlify，则无需配置。
+    -->
+    <!--
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.init({
+          APIUrl: "https://YOUR-SITE.netlify.app/.netlify/identity"
+        });
+      }
+    </script>
+    -->
+    <!-- 登录后跳回后台管理页 -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", function (user) {
+          if (!user) {
+            window.netlifyIdentity.on("login", function () {
+              // GitHub Pages 子路径部署，需带子路径前缀
+              document.location.href = "/my-poem-website/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
