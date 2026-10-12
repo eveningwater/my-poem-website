@@ -11,6 +11,18 @@
       [data-netlify-identity-button] {
         display: none;
       }
+      /* CMS 卡片摘要截断：只显示两行，超出省略 */
+      .nc-collectionView-listCard-main,
+      [class*="nc-card"] [class*="main"],
+      [class*="ListCard"] [class*="main"] {
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 3.2em;
+        line-height: 1.6em;
+      }
     </style>
   </head>
   <body>
