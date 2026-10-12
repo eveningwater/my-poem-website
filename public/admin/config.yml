@@ -8,13 +8,17 @@ backend:
 
 # 媒体文件上传配置
 media_folder: "public/images/uploads"
-public_folder: "/my-poem-website/images/uploads"
+public_folder: "/images/uploads"
 
 # 站点语言
 locale: "zh-CN"
 
-# 内容集合：每个 docs/*.md 文件对应一个可编辑条目
-# 注意：file 类型集合必须用 files 数组包裹
+# 支持中文文件名
+slug:
+  encoding: "unicode"
+  sanitize_replacement: "-"
+
+# 内容集合
 collections:
   # ===== 首页 =====
   - name: "index"
@@ -39,84 +43,95 @@ collections:
                   - { name: "link", label: "跳转链接", widget: "string" }
           - { name: "body", label: "正文", widget: "markdown", required: false }
 
-  # ===== 旧体诗 =====
+  # ===== 旧体诗（folder） =====
   - name: "old-style-poem"
     label: "旧体诗"
-    files:
-      - name: "old-style-poem"
-        label: "旧体诗"
-        file: "docs/old-style-poem.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/old-style-poem"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 现代诗 =====
+  # ===== 现代诗（folder） =====
   - name: "modern-poem"
     label: "现代诗"
-    files:
-      - name: "modern-poem"
-        label: "现代诗"
-        file: "docs/modern-poem.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/modern-poem"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 旧体词 =====
+  # ===== 旧体词（folder） =====
   - name: "old-style-word"
     label: "旧体词"
-    files:
-      - name: "old-style-word"
-        label: "旧体词"
-        file: "docs/old-style-word.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/old-style-word"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 元曲 =====
+  # ===== 元曲（folder） =====
   - name: "yuan-opera"
     label: "元曲"
-    files:
-      - name: "yuan-opera"
-        label: "元曲"
-        file: "docs/yuan-opera.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/yuan-opera"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 歌曲 =====
+  # ===== 歌曲（folder） =====
   - name: "song"
     label: "歌曲"
-    files:
-      - name: "song"
-        label: "歌曲"
-        file: "docs/song.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/song"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 文言文 =====
+  # ===== 文言文（folder） =====
   - name: "classical-chinese"
     label: "文言文"
-    files:
-      - name: "classical-chinese"
-        label: "文言文"
-        file: "docs/classical-chinese.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/classical-chinese"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 散文 =====
+  # ===== 散文（folder） =====
   - name: "prose"
     label: "散文"
-    files:
-      - name: "prose"
-        label: "散文"
-        file: "docs/prose.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
+    folder: "docs/prose"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 短句 =====
+  # ===== 短篇小说（folder） =====
+  - name: "short-novel"
+    label: "短篇小说"
+    folder: "docs/short-novel"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{fields.title}}"
+    fields:
+      - { name: "title", label: "标题", widget: "string" }
+      - { name: "body", label: "正文", widget: "markdown" }
+
+  # ===== 短句（file） =====
   - name: "sentence"
     label: "短句"
     files:
@@ -127,7 +142,7 @@ collections:
           - { name: "nav", label: "导航名称", widget: "string" }
           - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 对联 =====
+  # ===== 对联（file） =====
   - name: "couplet"
     label: "对联"
     files:
@@ -138,18 +153,7 @@ collections:
           - { name: "nav", label: "导航名称", widget: "string" }
           - { name: "body", label: "正文", widget: "markdown" }
 
-  # ===== 短篇小说 =====
-  - name: "short-novel"
-    label: "短篇小说"
-    files:
-      - name: "short-novel"
-        label: "短篇小说"
-        file: "docs/short-novel.md"
-        fields:
-          - { name: "nav", label: "导航名称", widget: "string" }
-          - { name: "body", label: "正文", widget: "markdown" }
-
-  # ===== 小说设计 =====
+  # ===== 小说设计（file） =====
   - name: "novel-design"
     label: "小说设计"
     files:

@@ -8,8 +8,6 @@ hero:
       link: /old-style-poem
 ---
 
-<code src="../src/index.tsx" inline></code>
-
 # 五言绝句格律
 
 一二对，三四对，二三粘。

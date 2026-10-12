@@ -9,7 +9,7 @@
     "build": "npm run generate:stats && dumi build && npm run package",
     "build:only": "npm run generate:stats && dumi build",
     "package": "node scripts/package-build.js",
-    "generate:stats": "node scripts/generate-statistics.js",
+    "generate:stats": "node scripts/normalize-filenames.js && node scripts/generate-statistics.js",
     "prepare": "husky install && dumi setup",
     "deploy": "npm run build:only && gh-pages -d my-poem-website",
     "release": "gh-pages -d my-poem-website"

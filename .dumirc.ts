@@ -46,11 +46,17 @@ const footerList = [
 // Netlify 构建时会设置 NETLIFY=true，部署在根路径；其余环境（GitHub Pages）用子路径
 const isNetlify = process.env.NETLIFY === 'true';
 const siteBase = isNetlify ? '/' : '/my-poem-website/';
+// 静态资源（public/ 下的 enhance.js 等）路径前缀，与 base 规则保持一致
+const assetBase = process.env.NODE_ENV === 'production' ? siteBase : '/';
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? siteBase : '/',
   publicPath: process.env.NODE_ENV === 'production' ? siteBase : '/',
   outputPath: 'my-poem-website',
+  resolve: {
+    // 排除备份目录，不生成路由
+    exclude: ['docs/backup'],
+  },
   themeConfig: {
     name: 'poem',
     socialLinks: {
@@ -176,5 +182,8 @@ export default defineConfig({
   // 但 Identity 组件只在 /admin/ 页面加载。检测到 token 时自动跳转到 /admin/。
   headScripts: [
     `(function(){var h=window.location.hash;if(/(recovery_token|invite_token|confirmation_token|email_change_token)=/.test(h)){window.location.replace('/admin/'+h);}})();`,
+    { src: `${assetBase}enhance.js`, defer: true },
   ],
+  // 全局增强样式（复制按钮、图片预览、统计弹窗）
+  links: [{ rel: 'stylesheet', href: `${assetBase}enhance.css` }],
 });

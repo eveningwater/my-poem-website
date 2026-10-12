@@ -3,8 +3,6 @@
 nav: 对联
 ---
 
-<code src="../src/index.tsx" inline></code>
-
 ## 无横批
 
 山后山前日左右，江南江北水东西。
