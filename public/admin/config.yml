@@ -49,7 +49,7 @@ collections:
     folder: "docs/old-style-poem"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -60,7 +60,7 @@ collections:
     folder: "docs/modern-poem"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -71,7 +71,7 @@ collections:
     folder: "docs/old-style-word"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -82,7 +82,7 @@ collections:
     folder: "docs/yuan-opera"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -93,7 +93,7 @@ collections:
     folder: "docs/song"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -104,7 +104,7 @@ collections:
     folder: "docs/classical-chinese"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -115,7 +115,7 @@ collections:
     folder: "docs/prose"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
@@ -126,7 +126,7 @@ collections:
     folder: "docs/short-novel"
     create: true
     slug: "{{slug}}"
-    summary: "{{fields.title}}"
+    summary: "{{title}} — {{body}}"
     fields:
       - { name: "title", label: "标题", widget: "string" }
       - { name: "body", label: "正文", widget: "markdown" }
