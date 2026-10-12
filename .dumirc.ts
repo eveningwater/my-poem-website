@@ -53,10 +53,6 @@ export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? siteBase : '/',
   publicPath: process.env.NODE_ENV === 'production' ? siteBase : '/',
   outputPath: 'my-poem-website',
-  resolve: {
-    // 排除备份目录，不生成路由
-    exclude: ['docs/backup'],
-  },
   themeConfig: {
     name: 'poem',
     socialLinks: {
